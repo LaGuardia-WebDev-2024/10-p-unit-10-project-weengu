@@ -47,6 +47,13 @@ var SweetpotX = 60;
   text(bakeryLabels[1], 70, 185);
   text(bakeryLabels[2], 70, 255);
   text(bakeryLabels[3], 70, 340);
+  text(bakeryLabels[4], 70, 420);
+
+  textSize(15);
+  text(price[0], 300, 105);
+  text(price[1],300,185);
+  text(price[2], 300, 255);
+  text(price[3], 300,340);
 }
 
 draw = function(){   
