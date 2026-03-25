@@ -58,16 +58,13 @@ var SweetpotX = 60;
   text(price[2], 300, 255);
   text(price[3], 300,340);
 }
-var shape =0;
+
 draw = function(){   
 
 
-if(mousePressed && shape==0){
-  textSize(random(30));
-  text("🌱", mouseX, mouseY,);
-}
 
-}
+  text("eatyogreens",mouseX,mouseY);
+};
 
 
 mouseClicked = function(){
