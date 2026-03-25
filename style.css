@@ -1,21 +1,24 @@
 body {
-  background-image: url("Sprinkles.jpg");
-  background-color: hsl(213, 85%, 92%);
+  background-image: url("https://friscofreshmarket.com/wp-content/uploads/2022/10/misting-food.jpg");
+  background-color: hsl(170, 58%, 45%);
   background-blend-mode: overlay;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; 
   font-family: Georgia, serif;
+  
 }
-
+h2{
+  color: rgb(193, 250, 210);
+}
 html{
   height: 100%;
   width: 100%;
 }
 
 #myCanvas1 {
-  border: 1px solid black;
+  border: 1px solid rgb(8, 107, 49);
   background-image: url("supermarket-interior-shelf_165488-3982.avif");
   background-size: cover;
   background-position: center;

@@ -6,10 +6,13 @@ setup = function() {
   background(0,0,0,0);
 
 //array 
-var bakeryLabels = ["Melon","Kiwi", "Tomato", "Sweet Potato"];
-var price = ["0.40","0.40", "0,40"];
+var product = ["Melon","Kiwi", "Tomato", "Sweet Potato"];
+var price = ["0.40","0.40", "0,40","0.40",];
 
 //for 
+for(var priceNum = 0; priceNum < price.length; priceNum++){text(price[priceNum], 280, 105+priceNum*80);}
+
+for(var productNum = 0; productNum < product.length; productNum++){text(product[productNum], 70, 105+productNum*80);}
 
 //while 
   var crossiantX = 60;
@@ -55,12 +58,20 @@ var SweetpotX = 60;
   text(price[2], 300, 255);
   text(price[3], 300,340);
 }
-
+var shape =0;
 draw = function(){   
+
+
+if(mousePressed && shape==0){
+  textSize(random(30));
+  text("🌱", mouseX, mouseY,);
+}
 
 }
 
 
 mouseClicked = function(){
+
+
 
 }
